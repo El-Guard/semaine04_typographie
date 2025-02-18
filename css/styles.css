@@ -1,0 +1,161 @@
+/* ======================================================================
+Generic
+====================================================================== */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* ==========================================================================
+Éléments
+========================================================================== */
+
+/* ---------- Base ---------- */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------- Éléments textes ---------- */
+
+h1{
+    font-size: 9.6rem;
+    font-weight: 900;
+    letter-spacing: 3.23rem;
+}
+
+p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+q{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* ==========================================================================
+Components
+========================================================================== */
+
+/* ---------- Header ---------- */
+
+header{
+    background-color: #34495E;
+}
+
+header .wrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+/* ---------- Section: Slogan ---------- */
+
+.slogan{
+    margin: 55px 0 55px 0;
+}
+
+.slogan .wrapper{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan p{
+    font: 100 4.8rem/1.6 "Lato", sans-serif;
+    letter-spacing: 0.33rem;
+    margin: 0;
+}
+
+.slogan q{
+    font: 100 4.8rem/1.6 "Lato", sans-serif;
+    letter-spacing: 0.33rem;
+    margin: 0;
+}
+
+.citation{
+    align-self: flex-end;
+}
+
+/* ---------- Section: Règles ---------- */
+
+.regles article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+
+a article:hover{
+    background-color: #BDC3C7;
+}
+
+.rond{
+    border: solid 5px #D35400;
+    height: 210px;
+    width: 210px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regles a{
+    text-decoration: none;
+}
+
+.regles p{
+    font: 400 3.6rem "Quicksand", sans-serif;
+    color: #D35400;
+}
+
+/* ---------- Section: Infos ---------- */
+
+.info{
+    margin: 12px 0 48px 0;
+}
+
+.info .wrapper{
+    height: 345px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.info p{
+    line-height: 45px;
+    margin: 0;
+}
+
+/* ---------- Section: Infos ---------- */
+
+footer{
+    background-color: #2980B9;
+}
+
+footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

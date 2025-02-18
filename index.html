@@ -15,7 +15,7 @@
 
 <body>
 
-    <header>
+    <header id="top">
         <div class="wrapper">
             <h1>La typographie</h1>
         </div>
@@ -23,45 +23,55 @@
 
     <section class="slogan">
         <div class="wrapper">
-            <p>« L’écriture, la plus noble conquête de l’homme»</p>
-            <p>- Elsa Triolet</p>
+            <q> L’écriture, la plus noble conquête de l’homme </q>
+            <p class="citation">- Elsa Triolet</p>
         </div>
     </section>
 
     <section class="regles">
         <div class="wrapper">
 
-            <article>
-                <p class="rond">«</p>
-                <p>Quels guillemets choisir pour le Web ?</p>
-            </article>
+            <a href="">
+                <article>
+                    <p class="rond">«</p>
+                    <p>Quels guillemets choisir pour le Web ?</p>
+                </article>
+            </a>
 
-            <article>
-                <p>Qu’est-ce qu’un espace insécable ?</p>
-                <p class="rond">&amp;nbsp</p>
-            </article>
+            <a href="">
+                <article>
+                    <p>Qu’est-ce qu’un espace insécable ?</p>
+                    <p class="rond">&amp;nbsp</p>
+                </article>
+            </a>
 
-            <article>
-                <p class="rond">Windows</p>
-                <p>S’occuper de la veuve et de l’orphelin.</p>
-            </article>
+            <a href="">
+                <article>
+                    <p class="rond">Windows</p>
+                    <p>S’occuper de la veuve et de l’orphelin.</p>
+                </article>
+            </a>
 
-            <article>
-                <p>Et la hauteur de ligne dans tout ça ?</p>
-                <p class="rond">line-height</p>
-            </article>
+            <a href="">
+                <article>
+                    <p>Et la hauteur de ligne dans tout ça ?</p>
+                    <p class="rond">line-height</p>
+                </article>
+            </a>
 
         </div>
     </section>
 
     <section class="info">
         <div class="wrapper">
-            <p>Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une police sans sérif (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices, Google Font s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.</p>
+            <article>
+                <p>Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une <strong>police sans sérif</strong> (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices, <strong>Google Font</strong> s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.</p>
+            </article>
 
-            <div class="texte2">
-                <h2>Test à faire en dernier :</h2>
-               <p>Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième <article>. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).</p> 
-            </div>
+            <article>
+                <p><strong>Test à faire en dernier :</strong></p>
+                <p>Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième &lt;article&gt;. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).</p> 
+            </article>
             
         </div>
     </section>
@@ -69,7 +79,7 @@
     <footer>
         <div class="wrapper">
             <p>La typographie</p>
-            <p class="rond"><span class="material-symbols-outlined">arrow_upward</span></p>
+            <a href="#top" class="btn-top"></a><span class="material-symbols-outlined">arrow_upward</span>
         </div>
     </footer>
 
