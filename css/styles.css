@@ -102,9 +102,11 @@ h1{
 
 .regles article{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 50px;
     align-items: center;
     height: 230px;
+    padding: 0 50px 0 50px;
 }
 
 a article:hover{
@@ -128,6 +130,14 @@ a article:hover{
 .regles p{
     font: 400 3.6rem "Quicksand", sans-serif;
     color: #D35400;
+}
+
+.gauche{
+    margin-right: 100px;
+}
+
+.droite{
+    margin-left: 110px;
 }
 
 /* ---------- Section: Infos ---------- */
@@ -158,4 +168,25 @@ footer .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.btn-top{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: solid 3px #BDC3C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.material-symbols-outlined{
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
 }
